@@ -44,5 +44,5 @@ if not st.session_state.odblokowane:
         else:
             st.error("nieprawidłowe hasło")
 else:
-    st.write("Jeszcze dzisiaj ci chyba nie powiedziałam, że jesteś piękna.")
-    st.write("Kocham cię")
+    st.write("Jeszcze dzisiaj ci chyba nie powiedziałam że jesteś piękna.")
+    st.write("Kocham cię!!!!!!!!!!")
