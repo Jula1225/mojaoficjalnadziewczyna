@@ -29,12 +29,12 @@ h1, p, label {
 </style>
 """, unsafe_allow_html=True)
 
-st.title("dla mojej oficjalnej dziewczyny")
-
 if "odblokowane" not in st.session_state:
     st.session_state.odblokowane = False
 
 if not st.session_state.odblokowane:
+    st.title("Dla mojej oficjalnej dziewczyny")
+
     haslo = st.text_input("wpisz hasło", type="password")
 
     if st.button("dalej"):
@@ -44,4 +44,5 @@ if not st.session_state.odblokowane:
         else:
             st.error("nieprawidłowe hasło")
 else:
-    st.write("puste")
+    st.write("Jeszcze dzisiaj ci chyba nie powiedziałam, że jesteś piękna.")
+    st.write("Kocham cię")
