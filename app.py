@@ -46,7 +46,7 @@ if not st.session_state.odblokowane:
 else:
     st.write("Jeszcze dzisiaj ci chyba nie powiedziałam że jesteś piękna. kropka")
     st.write("W tle powinna leciec piosenka ale nwm czy to dziala")
-    st.write("Ale jak leci to chce zebys wiedziala ze ja jestem dla ciebie jak ten fragment a ty jestes dla mnie najwazniejsza na swiecie i lubie z toba spedzac czas ale tak naprawde lubie kocham z toba spedzac czas kocham wszystko co z toba zwiazane i jakbym miala cie porownac do czegokolwiek to nawet nie wiem bo nie wazne ile bym dala porownan ze pasujesz do mnie jak 6 do 7 albo jak spolka do ograniczonej odpowiedzialnosci to i tak zadne slowa nie sa w stanie tego opisac ale po prostu jestes idealna w kazdym tego slowa znaczeniu
+    st.write("Ale jak leci to chce zebys wiedziala ze ja jestem dla ciebie jak ten fragment a ty jestes dla mnie najwazniejsza na swiecie i lubie z toba spedzac czas ale tak naprawde lubie kocham z toba spedzac czas kocham wszystko co z toba zwiazane i jakbym miala cie porownac do czegokolwiek to nawet nie wiem bo nie wazne ile bym dala porownan ze pasujesz do mnie jak 6 do 7 albo jak spolka do ograniczonej odpowiedzialnosci to i tak zadne slowa nie sa w stanie tego opisac ale po prostu jestes idealna w kazdym tego slowa znaczeniu")
     st.write("Kocham cię!!!!!!!!!!")
     st.audio("piosenka.mp3", format="audio/mpeg",
              autoplay=True, loop=True)
